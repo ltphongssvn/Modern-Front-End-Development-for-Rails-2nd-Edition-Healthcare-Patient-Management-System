@@ -11,7 +11,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
   - Create Rails app with PostgreSQL
   - Configure esbuild and Tailwind
   - Setup jsbundling-rails and cssbundling-rails
-- [ ] **Task 1.2:** Configure development environment (1 hour)
+- [x] **Task 1.2:** Configure development environment (1 hour)
   - Setup Procfile.dev for Foreman
   - Configure database.yml
   - Setup environment variables
