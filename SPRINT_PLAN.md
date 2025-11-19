@@ -7,7 +7,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
 ## User Stories & Tasks
 
 ### Epic 1: Project Foundation (8 hours)
-- [ ] **Task 1.1:** Initialize Rails 7 application (1 hour)
+- [x] **Task 1.1:** Initialize Rails 7 application (1 hour)
   - Create Rails app with PostgreSQL
   - Configure esbuild and Tailwind
   - Setup jsbundling-rails and cssbundling-rails
