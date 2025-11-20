@@ -15,7 +15,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
   - Setup Procfile.dev for Foreman
   - Configure database.yml
   - Setup environment variables
-- [ ] **Task 1.3:** Setup Git workflow (0.5 hours)
+- [x] **Task 1.3:** Setup Git workflow (0.5 hours)
   - Create .gitignore
   - Document in README.md
 - [ ] **Task 1.4:** Configure testing framework (2 hours)
