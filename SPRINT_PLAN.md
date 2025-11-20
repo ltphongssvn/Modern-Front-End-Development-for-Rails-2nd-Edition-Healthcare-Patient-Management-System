@@ -7,25 +7,25 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
 ## User Stories & Tasks
 
 ### Epic 1: Project Foundation (8 hours)
-- [ ] **Task 1.1:** Initialize Rails 7 application (1 hour)
+- [x] **Task 1.1:** Initialize Rails 7 application (1 hour)
   - Create Rails app with PostgreSQL
   - Configure esbuild and Tailwind
   - Setup jsbundling-rails and cssbundling-rails
-- [ ] **Task 1.2:** Configure development environment (1 hour)
+- [x] **Task 1.2:** Configure development environment (1 hour)
   - Setup Procfile.dev for Foreman
   - Configure database.yml
   - Setup environment variables
-- [ ] **Task 1.3:** Setup Git workflow (0.5 hours)
+- [x] **Task 1.3:** Setup Git workflow (0.5 hours)
   - Create .gitignore
   - Document in README.md
-- [ ] **Task 1.4:** Configure testing framework (2 hours)
+- [x] **Task 1.4:** Configure testing framework (2 hours)
   - Setup RSpec
   - Configure Capybara for system tests
   - Add factory_bot and faker
-- [ ] **Task 1.5:** Setup CI/CD pipeline config (1.5 hours)
+- [x] **Task 1.5:** Setup CI/CD pipeline config (1.5 hours)
   - Create GitHub Actions workflow
   - Configure test automation
-- [ ] **Task 1.6:** Configure TypeScript (2 hours)
+- [x] **Task 1.6:** Configure TypeScript (2 hours)
   - Setup tsconfig.json
   - Configure esbuild for TypeScript
   - Setup type definitions
