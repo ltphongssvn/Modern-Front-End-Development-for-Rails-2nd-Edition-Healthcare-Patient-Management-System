@@ -22,7 +22,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
   - Setup RSpec
   - Configure Capybara for system tests
   - Add factory_bot and faker
-- [ ] **Task 1.5:** Setup CI/CD pipeline config (1.5 hours)
+- [x] **Task 1.5:** Setup CI/CD pipeline config (1.5 hours)
   - Create GitHub Actions workflow
   - Configure test automation
 - [ ] **Task 1.6:** Configure TypeScript (2 hours)
