@@ -6,3 +6,4 @@
 .idea/
 
 tmp/cache/
+log/*.log

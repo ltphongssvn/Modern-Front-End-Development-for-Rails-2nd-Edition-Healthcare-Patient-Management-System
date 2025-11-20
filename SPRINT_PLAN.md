@@ -31,27 +31,27 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
   - Setup type definitions
 
 ### Epic 2: Data Models (6 hours)
-- [ ] **Task 2.1:** Create Patient model (1 hour)
+- [x] **Task 2.1:** Create Patient model (1 hour)
   - Generate model and migration
   - Add validations and associations
   - Write model specs
-- [ ] **Task 2.2:** Create Appointment model (1 hour)
+- [x] **Task 2.2:** Create Appointment model (1 hour)
   - Generate model with datetime fields
   - Setup associations with Patient
   - Add status enum
-- [ ] **Task 2.3:** Create MedicalRecord model (1.5 hours)
+- [x] **Task 2.3:** Create MedicalRecord model (1.5 hours)
   - Generate polymorphic model
   - Setup for labs, imaging, notes types
   - Add file attachments with Active Storage
-- [ ] **Task 2.4:** Create Medication model (1 hour)
+- [x] **Task 2.4:** Create Medication model (1 hour)
   - Generate model with dosage fields
   - Setup interaction checker logic
   - Add prescription associations
-- [ ] **Task 2.5:** Create VitalSign model (1 hour)
+- [x] **Task 2.5:** Create VitalSign model (1 hour)
   - Generate model with measurement fields
   - Setup time-series data structure
   - Add validation ranges
-- [ ] **Task 2.6:** Setup seeds and fixtures (0.5 hours)
+- [x] **Task 2.6:** Setup seeds and fixtures (0.5 hours)
   - Create realistic test data
   - Document data structure
 
