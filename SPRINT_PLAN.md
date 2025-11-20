@@ -25,7 +25,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
 - [x] **Task 1.5:** Setup CI/CD pipeline config (1.5 hours)
   - Create GitHub Actions workflow
   - Configure test automation
-- [ ] **Task 1.6:** Configure TypeScript (2 hours)
+- [x] **Task 1.6:** Configure TypeScript (2 hours)
   - Setup tsconfig.json
   - Configure esbuild for TypeScript
   - Setup type definitions
