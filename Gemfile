@@ -63,3 +63,14 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 6.1'
+  gem 'factory_bot_rails', '~> 6.4'
+  gem 'faker', '~> 3.2'
+end
+
+group :test do
+  gem 'capybara', '~> 3.39'
+  gem 'selenium-webdriver', '~> 4.16'
+end
