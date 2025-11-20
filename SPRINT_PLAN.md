@@ -18,7 +18,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
 - [x] **Task 1.3:** Setup Git workflow (0.5 hours)
   - Create .gitignore
   - Document in README.md
-- [ ] **Task 1.4:** Configure testing framework (2 hours)
+- [x] **Task 1.4:** Configure testing framework (2 hours)
   - Setup RSpec
   - Configure Capybara for system tests
   - Add factory_bot and faker
