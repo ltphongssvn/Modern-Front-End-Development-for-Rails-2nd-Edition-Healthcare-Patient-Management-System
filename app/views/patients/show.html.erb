@@ -1,2 +1,43 @@
-<h1>Patients#show</h1>
-<p>Find me in app/views/patients/show.html.erb</p>
+<!-- app/views/patients/show.html.erb -->
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-6">
+    <%= @patient.first_name %> <%= @patient.last_name %>
+  </h1>
+  
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <%= turbo_frame_tag "patient_labs" do %>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Lab Results</h2>
+        <p class="text-gray-600">Loading labs...</p>
+      </div>
+    <% end %>
+    
+    <%= turbo_frame_tag "patient_imaging" do %>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Imaging</h2>
+        <p class="text-gray-600">Loading imaging...</p>
+      </div>
+    <% end %>
+    
+    <%= turbo_frame_tag "patient_notes" do %>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Notes</h2>
+        <p class="text-gray-600">Loading notes...</p>
+      </div>
+    <% end %>
+  </div>
+  
+  <div class="mt-8">
+    <%= turbo_frame_tag "vital_signs" do %>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Recent Vital Signs</h2>
+        <% @vital_signs.each do |vital| %>
+          <div class="border-b pb-2 mb-2">
+            <p class="text-sm text-gray-600"><%= vital.recorded_at.strftime("%m/%d/%Y %H:%M") %></p>
+            <p>Temp: <%= vital.temperature %>°F | BP: <%= vital.blood_pressure_systolic %>/<%= vital.blood_pressure_diastolic %></p>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
