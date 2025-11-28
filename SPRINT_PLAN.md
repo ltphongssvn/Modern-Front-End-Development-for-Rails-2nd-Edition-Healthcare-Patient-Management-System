@@ -66,7 +66,7 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
 - [x] **Task 3.3:** Implement Turbo Streams (2 hours)
   - Setup real-time appointment updates
   - Configure vital signs streaming
-- [ ] **Task 3.4:** Create navigation with Turbo Drive (2 hours)
+- [x] **Task 3.4:** Create navigation with Turbo Drive (2 hours)
   - Setup patient dashboard navigation
   - Implement smooth transitions
   - Handle form submissions
