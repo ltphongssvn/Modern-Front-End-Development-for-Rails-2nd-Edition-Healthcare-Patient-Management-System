@@ -56,17 +56,17 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
   - Document data structure
 
 ### Epic 3: Turbo Implementation (8 hours)
-- [ ] **Task 3.1:** Setup Turbo Rails (1 hour)
+- [x] **Task 3.1:** Setup Turbo Rails (1 hour)
   - Configure turbo-rails gem
   - Setup ActionCable for streams
-- [ ] **Task 3.2:** Implement Turbo Frames for patient records (3 hours)
+- [x] **Task 3.2:** Implement Turbo Frames for patient records (3 hours)
   - Create frame layouts for labs section
   - Create frame layouts for imaging section
   - Create frame layouts for notes section
-- [ ] **Task 3.3:** Implement Turbo Streams (2 hours)
+- [x] **Task 3.3:** Implement Turbo Streams (2 hours)
   - Setup real-time appointment updates
   - Configure vital signs streaming
-- [ ] **Task 3.4:** Create navigation with Turbo Drive (2 hours)
+- [x] **Task 3.4:** Create navigation with Turbo Drive (2 hours)
   - Setup patient dashboard navigation
   - Implement smooth transitions
   - Handle form submissions
