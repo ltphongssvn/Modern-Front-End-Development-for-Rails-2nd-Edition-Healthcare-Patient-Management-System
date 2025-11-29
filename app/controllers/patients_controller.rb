@@ -1,6 +1,6 @@
 # app/controllers/patients_controller.rb
 class PatientsController < ApplicationController
-  before_action :set_patient, only: [:show, :edit, :update, :destroy]
+  before_action :set_patient, only: [:show]
 
   def index
     @patients = Patient.all
