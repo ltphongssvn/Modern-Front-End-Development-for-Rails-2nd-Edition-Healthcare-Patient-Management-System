@@ -8,3 +8,5 @@
 tmp/cache/
 log/*.log
 tmp/restart.txt
+app/assets/builds/
+tmp/pids/
