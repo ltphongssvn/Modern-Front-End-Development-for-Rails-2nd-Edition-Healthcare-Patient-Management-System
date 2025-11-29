@@ -7,3 +7,4 @@
 
 tmp/cache/
 log/*.log
+tmp/restart.txt
