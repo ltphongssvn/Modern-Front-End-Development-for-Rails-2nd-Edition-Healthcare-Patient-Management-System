@@ -144,3 +144,32 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
 Sprint Start: [Date]
 Sprint End: [Date + 2 weeks]
 Velocity Target: 40 story points
+
+## Sprint 2: Advanced Features (40 hours)
+
+### Epic 7: Authentication & Authorization (8 hours)
+- [ ] **Task 7.1:** Implement Devise authentication (2h)
+- [ ] **Task 7.2:** Add role-based authorization with Pundit (2h)
+- [ ] **Task 7.3:** Create user management interface (2h)
+- [ ] **Task 7.4:** Add audit logging (2h)
+
+### Epic 8: Real-time Features (8 hours)
+- [ ] **Task 8.1:** ActionCable setup for notifications (2h)
+- [ ] **Task 8.2:** Real-time appointment updates (3h)
+- [ ] **Task 8.3:** Live vital signs monitoring (3h)
+
+### Epic 9: Reporting & Analytics (8 hours)
+- [ ] **Task 9.1:** Patient dashboard with charts (3h)
+- [ ] **Task 9.2:** Export functionality (PDF/CSV) (2h)
+- [ ] **Task 9.3:** Analytics dashboard (3h)
+
+### Epic 10: API Development (8 hours)
+- [ ] **Task 10.1:** RESTful API with JWT (3h)
+- [ ] **Task 10.2:** GraphQL endpoint setup (3h)
+- [ ] **Task 10.3:** API documentation (2h)
+
+### Epic 11: Performance & Testing (8 hours)
+- [ ] **Task 11.1:** Add caching strategies (2h)
+- [ ] **Task 11.2:** Background jobs with Sidekiq (2h)
+- [ ] **Task 11.3:** Integration tests (2h)
+- [ ] **Task 11.4:** Performance monitoring (2h)
