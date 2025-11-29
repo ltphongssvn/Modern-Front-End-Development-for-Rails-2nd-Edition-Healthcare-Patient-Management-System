@@ -72,18 +72,18 @@ Establish Rails 7 application foundation with modern frontend tooling (Stimulus,
   - Handle form submissions
 
 ### Epic 4: Stimulus Controllers (6 hours)
-- [ ] **Task 4.1:** Create form validation controller (2 hours)
+- [x] **Task 4.1:** Create form validation controller (2 hours)
   - Patient registration validation
   - Appointment booking validation
   - Real-time error display
-- [ ] **Task 4.2:** Create calendar controller (2 hours)
+- [x] **Task 4.2:** Create calendar controller (2 hours)
   - Appointment calendar interactions
   - Date picker integration
   - Time slot selection
-- [ ] **Task 4.3:** Create auto-save controller (1 hour)
+- [x] **Task 4.3:** Create auto-save controller (1 hour)
   - Medical notes auto-save
   - Draft preservation
-- [ ] **Task 4.4:** Create notification controller (1 hour)
+- [x] **Task 4.4:** Create notification controller (1 hour)
   - Toast notifications
   - Alert dismissal
   - Success confirmations
