@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Healthcare Patient Management System</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+  </head>
+  
+  <body>
+    <nav class="bg-blue-600 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">
+          <%= link_to "Healthcare PMS", root_path, data: { turbo: true } %>
+        </h1>
+        <div class="space-x-4">
+          <%= link_to "Patients", patients_path, class: "hover:text-blue-200", data: { turbo: true } %>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="min-h-screen bg-gray-100">
+      <%= yield %>
+    </main>
+  </body>
+</html>
